@@ -1,0 +1,19 @@
+{
+  "name": "nodered-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-red": "^1.1.2",
+    "node-red-contrib-ui-web-push": "git+https://github.com/bartbutenaers/node-red-contrib-ui-web-push.git",
+    "node-red-contrib-web-push": "0.0.2",
+    "node-red-dashboard": "^2.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
